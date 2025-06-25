@@ -192,6 +192,15 @@ body {
   animation: shimmer 3s ease-in-out infinite;
 }
 
+/* Apply same gradient to Smart Parking text */
+.hero-title {
+  background: linear-gradient(135deg, #00e6ff, #0088cc, #0066ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 3s ease-in-out infinite;
+}
+
 .hero-description {
   font-size: 1.25rem;
   color: #b0b0b0;
@@ -717,6 +726,11 @@ body {
   font-size: 1.8rem;
   font-weight: 700;
   margin-bottom: 4px;
+  /* Apply same gradient as Revolution text to Users, Vendors, Super Admins titles */
+  background: linear-gradient(135deg, #00e6ff, #0088cc, #0066ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .user-count {
